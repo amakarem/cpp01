@@ -6,7 +6,7 @@
 #    By: aelaaser <aelaaser@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/13 15:48:57 by aelaaser          #+#    #+#              #
-#    Updated: 2025/05/14 16:01:17 by aelaaser         ###   ########.fr        #
+#    Updated: 2025/05/14 16:04:46 by aelaaser         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,7 +21,7 @@ SRCS = main.cpp Harl.cpp
 OBJS = $(SRCS:.cpp=.o)
 
 # Executable name
-NAME = Harl_filter
+NAME = Harl
 
 # Default target
 all: $(NAME)
