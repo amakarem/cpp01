@@ -6,7 +6,7 @@
 /*   By: aelaaser <aelaaser@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/13 21:07:59 by aelaaser          #+#    #+#             */
-/*   Updated: 2025/05/14 15:22:31 by aelaaser         ###   ########.fr       */
+/*   Updated: 2025/05/14 16:22:18 by aelaaser         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,7 +73,7 @@ int main(int argc, char **argv)
 
 
 	if (argc != 4)
-		return (std::cout << "Wrong number of arguments" << std::endl, 0);
+		return (std::cout << "Wrong number of arguments\n require a filename and two strings" << std::endl, 0);
 	input_filename = argv[1];
 	output_filename = input_filename + ".replace";
 	if (open_files(input_filename, output_filename, &inputfile, &outputfile))
