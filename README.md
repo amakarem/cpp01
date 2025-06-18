@@ -106,3 +106,4 @@ Implement a program that demonstrates the use of switch-case control structures.
    git clone https://github.com/amakarem/cpp01.git
    cd cpp01
   ```
+   run `make` inside each ex folder to compile 
