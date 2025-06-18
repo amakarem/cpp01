@@ -100,11 +100,7 @@ Implement a program that demonstrates the use of switch-case control structures.
 
 ---
 
-## ⚙️ Compilation and Execution
-
-To compile and run the exercises:
-
-Clone the repository:
+## ⚙️ Clone the repository
 
    ```bash
    git clone https://github.com/amakarem/cpp01.git
